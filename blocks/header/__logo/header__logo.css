@@ -1,0 +1,11 @@
+.header__logo {
+  background-image: url('../../../images/logo/logo.svg');
+  width: 176px;
+  height: 52px;
+  color: white;
+  transition: opacity .4s;
+}
+
+.header__logo:hover {
+  opacity: .4;
+}
