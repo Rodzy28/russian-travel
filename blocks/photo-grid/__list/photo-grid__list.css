@@ -2,9 +2,17 @@
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
+  max-width: calc(100% - 96px);
   display: grid;
-  width: calc(100% - 96px);
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
   font-size: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: calc(100% - 96px);
+    grid-gap: 14px;
+  }
 }
