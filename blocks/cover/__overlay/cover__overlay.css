@@ -1,0 +1,27 @@
+.cover__overlay {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../../images/photos/trains.jpg);
+  max-width: 100%;
+  height: 740px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+
+.cover__overlay::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #2A2C2F;
+  opacity: .3;
+  transition: opacity .4s;
+}
+
+.cover__overlay:hover::before {
+  opacity: .8;
+}

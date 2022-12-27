@@ -4,8 +4,18 @@
   height: 52px;
   color: white;
   transition: opacity .4s;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .header__logo:hover {
-  opacity: .4;
+  opacity: .8;
+}
+
+@media screen and (max-width: 767px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
 }

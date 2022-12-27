@@ -4,3 +4,24 @@
   margin: 28px auto 56px;
   max-width: calc(100% - 96px);
 }
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: calc(100% - 96px);
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: calc(100% - 48px);
+    margin-top: 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    max-width: calc(100% - 32px);
+    margin-top: 16px;
+  }
+}
