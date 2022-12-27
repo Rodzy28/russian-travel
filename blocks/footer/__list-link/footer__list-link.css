@@ -4,6 +4,15 @@
   padding: 0;
   font-weight: 400;
   font-size: 16px;
-  line-height: 18px;
+  line-height: 112%;
   display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 425px) {
+  .footer__list-link {
+    font-size: 24px;
+    line-height: 100%;
+    flex-direction: column;
+  }
 }
