@@ -4,14 +4,8 @@
   position: relative;
 }
 
-@media screen and (min-width: 441px) and (max-width: 460px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .cover {
-    margin-bottom: 20vw;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 440px) {
-  .cover {
-    margin-bottom: 20vw;
+    margin-bottom: 64px;
   }
 }

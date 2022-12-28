@@ -25,3 +25,15 @@
 .cover__overlay:hover::before {
   opacity: .8;
 }
+
+@media screen and (min-width: 1184px)  {
+  .cover__overlay {
+    min-height: 740px;
+  }
+}
+
+@media screen and (max-width: 1183px)  {
+  .cover__overlay {
+    min-height: 62.5vw;
+  }
+}
