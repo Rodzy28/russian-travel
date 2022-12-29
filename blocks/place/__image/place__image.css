@@ -10,16 +10,16 @@
   }
 }
 
-@media screen and (min-width: 601px) and (max-width: 768px) {
+@media screen and (min-width: 601px) and (max-width: 720px) {
   .place__image {
-    max-width: 340px;
+    max-width: 280px;
     width: 100%;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .place__image {
-    max-width: 600px;
+    max-width: 520px;
     width: 100%;
     margin: 0 auto;
   }
